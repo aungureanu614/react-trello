@@ -8,9 +8,11 @@ var Card = require('./card');
 
        return(
        		<div>
-       			<Card />
-       			<Card />
-       			<Card />
+       			<h2>{this.props.title}</h2>
+                            <Card text={this.props.cards[0]}/>
+                            <Card text={this.props.cards[1]}/>
+                            <Card text={this.props.cards[2]}/>
+       			<br/>
        		</div>
        	)
 	}

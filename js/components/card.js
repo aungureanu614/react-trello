@@ -5,7 +5,10 @@ var Card = React.createClass({
 	render: function(){
 
        return(
-       		<div>This is a card</div>
+       		<div>
+       			{this.props.text}
+
+       		</div>
        	)
 	}
 });
