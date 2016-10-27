@@ -16,17 +16,17 @@ var ListContainer = React.createClass({
               	text: event.target.value
               })
               
-              console.log("On Add Input Changed Callback!")
+              // console.log("On Add Input Changed Callback!")
        },
 
-       onAddSubmit: function(e){
+    onAddSubmit: function(e){
               e.preventDefault();
               var cards = this.state.cards;
               cards.push(this.state.text);
-          	   this.setState({
+          	  this.setState({
           	   	 cards: cards
-          	   })
-              console.log(this.state.cards);
+          	  })
+              // console.log(this.state.cards);
        },          
 
 	
