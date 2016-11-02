@@ -12,11 +12,11 @@ var ListContainer = require('./list-container');
        	<div>
                    <h1>{this.props.title}</h1>
                    
-       		<ListContainer title={this.props.lists[0]} />
+       		     <ListContainer title={this.props.lists[0]} />
                      <ListContainer title={this.props.lists[1]} />
                      <ListContainer title={this.props.lists[2]} />
        	      
-              </div>
+        </div>
        	)
 	}
 });

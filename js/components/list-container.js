@@ -16,7 +16,6 @@ var ListContainer = React.createClass({
               	text: event.target.value
               })
               
-              // console.log("On Add Input Changed Callback!")
        },
 
     onAddSubmit: function(e){
@@ -26,7 +25,7 @@ var ListContainer = React.createClass({
           	  this.setState({
           	   	 cards: cards
           	  })
-              // console.log(this.state.cards);
+              
        },          
 
 	
