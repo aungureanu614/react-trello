@@ -17,8 +17,8 @@ return(
               <br/>
 
               <form>
-                     <input type="text" onChange={this.props.onAddInputChanged}></input>
-                     <button onClick={this.props.onAddSubmit}>Submit</button>
+                     <input type="text" ref="input" onChange={this.props.onAddInputChanged}></input>
+                     <button ref="button" onClick={this.props.onAddSubmit}>Submit</button>
               </form>
 
        </div>
